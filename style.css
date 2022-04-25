@@ -38,7 +38,7 @@ Variables
   --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: hsl(210, 36%, 96%);
   --clr-white: #fff;
-  --clr-red-dark: hsl(360, 67%, 44%);
+  --clr-red-dark: rgb(105, 15, 15);
   --clr-red-light: hsl(360, 71%, 66%);
   --clr-green-dark: hsl(125, 67%, 44%);
   --clr-green-light: hsl(125, 71%, 66%);
@@ -157,14 +157,14 @@ p {
 
 .btn {
   text-transform: uppercase;
-  background:var(--clr-primary-10);
+  background:var(--clr-primary-1);
   color: var(--clr-black);
   padding: 0.375rem 0.75rem;
   letter-spacing: var(--spacing);
   display: inline-block;
   transition: var(--transition);
   font-size: 0.875rem;
-  border: 2px solid var(--clr-black);
+  border: 2px solid var(--clr-primary-10);
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
@@ -174,8 +174,8 @@ p {
   background: var(--clr-black);
 }
 .btn-white {
-  color: var(--clr-black);
-  border-color: var(--clr-white);
+  color: var(--clr-primary-3);
+  border-color: var(--clr-red-dark);
   border-radius: 0;
   padding: 0.5rem 1rem;
 }
@@ -326,11 +326,10 @@ header {
   
 }
 .container h1 {
-  color: var(--clr-white);
+  color: var(--clr-primary-6);
   text-transform: uppercase;
-  background: var(--clr-grey-1);
-  opacity: 0.8;
-  padding: 20px;
+  text-shadow: 4px 4px var(--clr-red-dark);
+
 }
 .container p {
   color: var(--clr-white);
