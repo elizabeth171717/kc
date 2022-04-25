@@ -326,7 +326,7 @@ header {
   
 }
 .container h1 {
-  color: var(--clr-primary-6);
+  color: var(--clr-white);
   text-transform: uppercase;
   text-shadow: 4px 4px var(--clr-red-dark);
 
