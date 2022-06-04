@@ -1,9 +1,8 @@
-// Element .getBoundingClientREact() method returs the size of
-// an element and its position relative to the viewport.
-
 // set date
 const date = document.getElementById("date");
 date.innerHTML = new Date().getFullYear();
+
+
 
 //close links
 
@@ -24,7 +23,7 @@ navToggle.addEventListener("click", function () {
     }
 });
 
-const navbar = document.getElementById("nav");
+const navbar = document.getElementById("navigation");
 const topLink = document.querySelector(".top-link");
 // fixed navbar
 
@@ -45,6 +44,7 @@ window.addEventListener("scroll", function () {
         topLink.classList.remove("show-link");
     }
 });
+
 
 //smooth  scroll
 
