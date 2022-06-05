@@ -40,9 +40,12 @@ body {
   padding-bottom: 5rem;
 }
 
-#about,
+#about {
+   height: 100vh;
+}
+
 #services,
-#gallery,
+
 #contact {
   height: auto;
   padding: 40px 0;
