@@ -545,7 +545,7 @@ footer p {
 
   /*about*/
   .about {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .about-text {
     width: 100%;
@@ -624,3 +624,17 @@ footer p {
     width: 80%;
   }
 
+
+
+@media (max-width: 500px) {
+  .fb-ig-container {
+ margin:20px 0;
+  width:100%;
+  
+}
+
+.fb-ig-container iframe {
+    width: 90%;
+  }
+  
+}
