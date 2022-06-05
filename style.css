@@ -307,7 +307,7 @@ footer p {
 
 .about-img {
   flex: 1;
-
+    background-color: grey;
   display: flex;
   align-items: center;
   justify-content: center;
