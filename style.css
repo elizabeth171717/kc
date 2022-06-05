@@ -591,6 +591,11 @@ footer p {
   }
 
   /*about*/
+  
+  #about {
+    height: auto;
+  }
+  
   .about-text {
     padding: 20px;
   }
