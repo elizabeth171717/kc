@@ -604,7 +604,7 @@ body,
 	.header .header,
 	.header .header-inner,
 	.header.header-transparent .header-inner{
-		background-color: rgb(107, 105, 105);
+		background-color: rgb(196, 196, 196);
 	}
 	.header .header-inner{
 		border-bottom: 1px solid #eee;
