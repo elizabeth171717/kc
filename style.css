@@ -36,16 +36,26 @@ body {
 }
 
 /* section */
+
 .section {
   padding-bottom: 5rem;
 }
 
-#about,
+#about {
+   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+padding: 40px 0;
+}
+
 #services,
-#gallery,
+
 #contact {
   height: auto;
   padding: 40px 0;
+  
 }
 #services,
 #contact {
@@ -297,7 +307,7 @@ footer p {
 
 .about-img {
   flex: 1;
-
+    background-color: grey;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -545,7 +555,7 @@ footer p {
 
   /*about*/
   .about {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .about-text {
     width: 100%;
@@ -581,6 +591,11 @@ footer p {
   }
 
   /*about*/
+  
+  #about {
+    height: auto;
+  }
+  
   .about-text {
     padding: 20px;
   }
@@ -624,3 +639,17 @@ footer p {
     width: 80%;
   }
 
+
+
+@media (max-width: 500px) {
+  .fb-ig-container {
+ margin:5px 0;
+  width:100%;
+  
+}
+
+.fb-ig-container iframe {
+    width: 90%;
+  }
+  
+}
