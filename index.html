@@ -2,343 +2,1050 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <!--FAVICON-->
-    <link rel="shortcut icon" type="image/png" href="images/google(1).png" />
-    <!-- font-awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    <meta
+      content="width=device-width,initial-scale=1.0,maximum-scale=1.0"
+      name="viewport"
     />
+    <meta name="twitter:widgets:theme" content="light" />
+    <meta property="og:title" content="Your-Title-Here" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="Your-Image-Url" />
+    <meta property="og:description" content="Your-Page-Description" />
     <title>KC CONSTRUCTION</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/facebook.png" />
+
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700%7CRaleway:300,400,600,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Css -->
+    <link rel="stylesheet" href="css/core.min.css" />
+    <link rel="stylesheet" href="css/skin-architecture-one-page.css" />
+
+    <!--[if lt IE 9]>
+      <script
+        type="text/javascript"
+        src="http://html5shiv.googlecode.com/svn/trunk/html5.js"
+      ></script>
+    <![endif]-->
   </head>
-  <body>
-    <header id="hero">
-      <!--  navbar  -->
-      <div id="navigation">
-        <div class="nav-header">
-          <div class="nav-center">
-            <div class="logo">
-              <p><a href="tel:205-400-6074">205-400-6074</a></p>
-            </div>
-            <div class="nav-toggle">
-              <i class="fas fa-bars"></i>
+  <body class="shop home-page">
+    <!-- Side Navigation Menu -->
+    <aside
+      class="side-navigation-wrapper enter-right"
+      data-no-scrollbar
+      data-animation="scale-in"
+    >
+      <div class="side-navigation-scroll-pane">
+        <div class="side-navigation-inner">
+          <div class="side-navigation-header">
+            <div class="navigation-hide side-nav-hide">
+              <a href="#">
+                <span class="icon-cancel medium"></span>
+              </a>
             </div>
           </div>
-
-          <!--  links  -->
-          <div class="links-container">
-            <ul class="links">
-              <li><a href="#hero" class="scroll-link">home</a></li>
-              <li><a href="#about" class="scroll-link">about</a></li>
-             
-              <li><a href="#services" class="scroll-link">services</a></li>
-              <li><a href="#contact" class="scroll-link">contact</a></li>
+          <nav class="side-navigation nav-block">
+            <ul>
+              <li class="current">
+                <a href="#home" data-offset="0" class="scroll-link">Home</a>
+              </li>
+              <li>
+                <a href="#services" data-offset="-60" class="scroll-link"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a href="#about" data-offset="-60" class="scroll-link">About</a>
+              </li>
+              <li>
+                <a href="#work" data-offset="-60" class="scroll-link">Work</a>
+              </li>
+              <li>
+                <a href="#contact" data-offset="-60" class="scroll-link"
+                  >Contact</a
+                >
+              </li>
             </ul>
+          </nav>
+          <div class="side-navigation-footer">
+            <ul class="social-list list-horizontal">
+              <li>
+                <a href="https://www.facebook.com/kcconstructionandrenovation"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a href="https://www.instagram.com/kcconstructionn/"
+                  >Instagram</a
+                >
+              </li>
+            </ul>
+            <p class="copyright no-margin-bottom">
+              &copy; <a href="https://www.7seven7.us/">7seven7</a>
+            </p>
           </div>
         </div>
-
-        <!--  navbar  -->
       </div>
+    </aside>
+    <!-- Side Navigation Menu End -->
 
-      <!-- banner -->
-      <div class="banner">
-        <div class="container">
-          
-          <h1>LICENSED & INSURED</h1>
-          <p>
-            GENERAL CONTRACTOR Serving Birmingham, Alabama  and surrounding areas...
-          </p>
-          <a href="tel:205-400-6074" class="scroll-link btn btn-white">
-            Free Estimate
-          </a>
+    <div class="wrapper reveal-side-navigation">
+      <div class="wrapper-inner">
+        <!-- Header -->
+        <header
+          class="header header-fixed header-fixed-on-mobile header-transparent"
+          data-bkg-threshold="100"
+        >
+          <div class="header-inner">
+            <div class="row nav-bar">
+              <div class="column width-12 nav-bar-inner">
+                <div class="logo">
+                  <div class="logo-inner">
+                    <a href="index.html"
+                      ><img src="images/logo.png" alt="Logo"
+                    /></a>
+                    <a href="index.html"
+                      ><img src="images/logo.png" alt="Logo"
+                    /></a>
+                  </div>
+                </div>
+                <nav
+                  class="navigation nav-block secondary-navigation nav-right"
+                >
+                  <ul>
+                    <li class="aux-navigation hide">
+                      <!-- Aux Navigation -->
+                      <a
+                        href="#"
+                        class="navigation-show side-nav-show nav-icon"
+                      >
+                        <span class="icon-menu"></span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+                <nav class="navigation nav-block primary-navigation nav-right">
+                  <ul>
+                    <li class="current">
+                      <a href="#home" data-offset="0" class="scroll-link"
+                        >Home</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#services" data-offset="-60" class="scroll-link"
+                        >Services</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#about" data-offset="-60" class="scroll-link"
+                        >About</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#work" data-offset="-60" class="scroll-link"
+                        >Work</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#contact" data-offset="-60" class="scroll-link"
+                        >Contact</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!-- Header End -->
+
+        <!-- Content -->
+        <div class="content clearfix">
+          <!-- Fullscreen Slider Section -->
+          <section
+            id="home"
+            class="section-block featured-media window-height tm-slider-parallax-container"
+          >
+            <div
+              class="tm-slider-container full-width-slider"
+              data-featured-slider
+              data-parallax
+              data-animation="slide"
+              data-scale-under="960"
+            >
+              <ul class="tms-slides">
+                <li
+                  class="tms-slide"
+                  data-image
+                  data-as-bkg-image
+                  data-force-fit
+                  data-overlay-bkg-color="#000000"
+                  data-overlay-bkg-opacity="0.3"
+                  data-animation="scaleOut"
+                >
+                  <div class="tms-content">
+                    <div class="tms-content-inner center v-align-middle">
+                      <div class="row">
+                        <div class="column width-10 offset-1">
+                          <div
+                            class="tms-caption"
+                            data-animate-in="preset:signSwingBottom;duration:600ms;easing:easeFastSlow;"
+                            data-no-scale
+                          >
+                            <h1
+                              class="title-large color-white lspacing-small mb-10 text-uppercase"
+                            >
+                              HOME RENOVATION, PAINTING & REPAIR
+                            </h1>
+                            <p
+                              class="lead color-white text-uppercase no-margin-bottom"
+                            >
+                              Birmingham - Alabama
+                            </p>
+                            <a
+                              href="tel:205-400-6074"
+                              class="tms-caption mt-20 button small border-white color-white bkg-hover-theme color-hover-white"
+                              data-animate-in="preset:slideInUpShort;duration:1000ms;delay:800ms;"
+                              data-no-scale
+                            >
+                              FREE ESTIMATE
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    data-src="images/bb.jpg"
+                    data-retina
+                    src="images/blank.png"
+                    alt=""
+                  />
+                </li>
+              </ul>
+            </div>
+          </section>
+          <!-- Fullscreen Slider Section End -->
+
+          <!-- Services -->
+          <div id="services" class="section-block replicable-content">
+            <div class="row">
+              <div class="column width-3">
+                <h3 class="mb-30">Services</h3>
+              </div>
+              <div class="column width-9">
+                <div class="row flex boxes">
+                  <div class="column width-6">
+                    <div
+                      class="feature-column box xlarge horizon"
+                      data-animate-in="preset:slideInLeftShort;duration:1000ms;"
+                    >
+                      <div class="feature-text no-padding">
+                        <ul class="lead">
+                          <li>Framing</li>
+                          <li>Remodeling</li>
+                          <li>Painting</li>
+                          <li>Demolition</li>
+                          <li>Ceiling</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column width-6">
+                    <div
+                      class="feature-column box xlarge bkg-grey-ultralight horizon"
+                      data-animate-in="preset:slideInLeftShort;duration:1000ms;delay:200ms;"
+                    >
+                      <div class="feature-text no-padding">
+                        <ul class="lead">
+                          <li>Roof</li>
+                          <li>Doors</li>
+                          <li>Siding</li>
+                          <li>Windows</li>
+                          <li>Sheetrock</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column width-6">
+                    <div
+                      class="feature-column box xlarge bkg-grey-ultralight horizon"
+                      data-animate-in="preset:slideInLeftShort;duration:1000ms;delay:400ms;"
+                    >
+                      <div class="feature-text no-padding">
+                        <ul class="lead">
+                          <li>Bathroom</li>
+                          <li>Concrete</li>
+                          <li>Bricks</li>
+                          <li>Cleaning</li>
+                          <li>Drywall</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column width-6">
+                    <div
+                      class="feature-column box xlarge horizon"
+                      data-animate-in="preset:slideInLeftShort;duration:1000ms;delay:600ms;"
+                    >
+                      <div class="feature-text no-padding">
+                        <ul class="lead">
+                          <li>Floor</li>
+                          <li>Carpet</li>
+                          <li>Granite</li>
+                          <li>Cabinet</li>
+                          <li>Cedar</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Services End -->
+
+          <!-- About -->
+          <section id="about">
+            <!-- Hero 5 Section -->
+            <div
+              class="section-block hero-5 hero-5-3 clear-height show-media-column-on-mobile bkg-charcoal color-white"
+            >
+              <div class="media-column width-6"></div>
+              <div class="row">
+                <div class="column width-6">
+                  <div class="hero-content split-hero-content">
+                    <div class="hero-content-inner left">
+                      <h3 class="mb-30">KC CONSTRUCTION</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="column width-5 offset-1">
+                  <div class="hero-content split-hero-content">
+                    <div
+                      class="hero-content-inner left horizon"
+                      data-animate-in="preset:slideInLeftShort;duration:1000ms;"
+                      data-threshold="0.6"
+                    >
+                      <h2>Your local HANDYMEN</h2>
+                      <p class="lead">RESIDENTIAL - LICENSED - INSURED</p>
+                      <p class="color-grey-light">
+                        <strong>KC CONSTRUCTION</strong> A family owned company
+                        serving Birmingham, Alabama. We specialized on
+                        repairing, renovating and remodeling your home. We are a
+                        full service construction and property maintenance
+                        company.
+                      </p>
+                      <p class="color-grey-light">
+                        We can handle anything from painting, drywall, framing
+                        and general repairs, complete remodeling to task such as
+                        handling punch list, restoration put back and property
+                        maintenance.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Hero 5 Section End -->
+
+            <!-- Hero 5 Section -->
+            <div
+              class="section-block hero-5 hero-5-2 right show-media-column-on-mobile bkg-white"
+            >
+              <div class="media-column width-6"></div>
+              <div class="row">
+                <div class="column width-5">
+                  <div
+                    class="hero-content split-hero-content testimonials-5-about-1"
+                  >
+                    <div class="hero-content-inner">
+                      <div
+                        id="testimonial-slider-1"
+                        class="testimonial-slider tm-slider-container"
+                        data-auto-advance
+                        data-auto-advance-interval="5000"
+                        data-progress-bar="false"
+                        data-nav-keyboard="false"
+                        data-pause-on-hover="false"
+                      >
+                        <ul class="tms-slides">
+                          <li class="tms-slide" data-image>
+                            <div class="tms-content-scalable">
+                              <div class="row">
+                                <div class="column width-10">
+                                  <blockquote class="left large">
+                                    <p>
+                                      Whether you simply need the kitchen
+                                      painted or want to change every room in
+                                      your house, our team can handle it all
+                                    </p>
+                                  </blockquote>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="tms-slide" data-image>
+                            <div class="tms-content-scalable">
+                              <div class="row">
+                                <div class="column width-10">
+                                  <blockquote class="left large">
+                                    <p>
+                                      We ensure smooth and consistent results
+                                    </p>
+                                  </blockquote>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="tms-slide" data-image>
+                            <div class="tms-content-scalable">
+                              <div class="row">
+                                <div class="column width-10">
+                                  <blockquote class="left large">
+                                    <p>
+                                      Interior/exterior house. Bathroom
+                                      Remodeling. Cabinet Refinishing. Kitchen
+                                      Remodeling YOU NAME IT!
+                                    </p>
+                                  </blockquote>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="tms-slide" data-image>
+                            <div class="tms-content-scalable">
+                              <div class="row">
+                                <div class="column width-10">
+                                  <blockquote class="left large">
+                                    <p>Fair and Transparent Pricing</p>
+                                  </blockquote>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Hero 5 Section End -->
+
+            <!-- Team Grid -->
+            <div class="section-block team-2 bkg-grey-ultralight">
+              <div class="row">
+                <div class="column width-12">
+                  <h3 class="mb-50">FACEBOOK</h3>
+                </div>
+                <div
+                  class="column width-12 horizon"
+                  data-animate-in="preset:slideInUpShort;duration:1000ms;"
+                  data-threshold="0.4"
+                >
+                  <div class="row content-grid-3">
+                    <div class="grid-item">
+                      <div class="team-content">
+                        <div class="thumbnail no-margin-bottom">
+                          <iframe
+                            src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fkcconstructionandrenovation%2Fvideos%2F1399215933815315%2F&show_text=true&width=560&t=0"
+                            width="560"
+                            height="370"
+                            style="border: none; overflow: hidden"
+                            scrolling="no"
+                            frameborder="0"
+                            allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                            allowfullscreen="true"
+                          ></iframe>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="grid-item">
+                      <div class="team-content">
+                        <div class="thumbnail no-margin-bottom">
+                          <iframe
+                            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fkcconstructionandrenovation%2Fposts%2Fpfbid02Bq6ExgR6eWb1VxZ4AEb4eW49wm8oXVShCojQ7LWbUaSDFJGhTwEowvSXjQiDnZv4l&show_text=true&width=500"
+                            width="500"
+                            height="370"
+                            style="border: none; overflow: hidden"
+                            scrolling="no"
+                            frameborder="0"
+                            allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                          ></iframe>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="grid-item">
+                      <div class="team-content">
+                        <div class="thumbnail no-margin-bottom">
+                          <iframe
+                            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fkcconstructionandrenovation%2Fposts%2Fpfbid02mYPWhFC2B8cWFK8QCKNaHAqo98CNUxTkNkrrrx3gFqXRXmGH9avZbHudDLu1a67Gl&show_text=true&width=500"
+                            width="500"
+                            height="370"
+                            style="border: none; overflow: hidden"
+                            scrolling="no"
+                            frameborder="0"
+                            allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                          ></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Team Grid End -->
+          </section>
+          <!-- About End -->
+
+          <!-- Work -->
+          <section id="work">
+            <!-- Content Section -->
+            <div
+              class="section-block replicable-content bkg-charcoal color-white"
+            >
+              <div class="row">
+                <div class="column width-12">
+                  <h3 class="mb-30">Our Work</h3>
+                </div>
+                <div class="column width-5 offset-3">
+                  <p>
+                    Our professional handymen strive to build long-term
+                    relationships with our customers and their properties. We
+                    provide safe and reliable service, so you can relax and let
+                    us cross those extra tasks off your “To-Do” list. Servicing
+                    residential customers from Birmingham, we know your
+                    neighborhood and we have already serviced your neighbor.
+                    Birmingham residents can trust our company-employed handymen
+                    to get the job done right as quickly and efficiently as
+                    possible. Doors, drywall, flooring, carpentry…you name it,
+                    we tackle it!
+                  </p>
+                </div>
+                <div
+                  class="column width-4 horizon"
+                  data-animate-in="preset:slideInRightShort;duration:1000ms;delay:400ms;easing:easeFastSlow;"
+                  data-threshold="0.5"
+                >
+                  <div class="stats-1 left">
+                    <div class="stat box large bkg-black">
+                      <div class="stat-inner">
+                        <p class="counter">
+                          <span
+                            class="stat-counter"
+                            data-count-from="1230"
+                            data-count-to="1556"
+                            >1,230</span
+                          >
+                          Projects
+                        </p>
+                        <p class="description">
+                          Since Our Inception in January 2013
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Content Section End -->
+
+            <!-- Full Width Slider Section -->
+            <section class="section-block bkg-charcoal no-padding">
+              <div
+                class="tm-slider-container full-width-slider"
+                data-featured-slider
+                data-parallax
+                data-animation="slide"
+                data-speed="1300"
+                data-scale-under="960"
+              >
+                <ul class="tms-slides">
+                  <li
+                    class="tms-slide"
+                    data-image
+                    data-as-bkg-image
+                    data-force-fit
+                    data-overlay-bkg-color="#000000"
+                    data-overlay-bkg-opacity="0.3"
+                    data-animation="slideLeftRight"
+                  >
+                    <div class="tms-content">
+                      <div class="tms-content-inner left v-align-middle">
+                        <div class="row">
+                          <div class="column width-5 offset-7">
+                            <span
+                              class="tms-caption label bkg-theme color-white"
+                              data-animate-in="preset:slideInUpShort;duration:1000ms;"
+                              data-no-scale
+                            >
+                              Featured Project
+                            </span>
+                            <div class="clear"></div>
+                            <h4
+                              class="tms-caption mt-30 color-white"
+                              data-animate-in="preset:slideInUpShort;duration:1000ms;delay:200ms;"
+                              data-no-scale
+                            >
+                              FRAMING
+                            </h4>
+                            <div class="clear"></div>
+                            <p
+                              class="tms-caption mb-20 color-white"
+                              data-animate-in="preset:slideInUpShort;duration:1000ms;delay:400ms;"
+                              data-no-scale
+                            >
+                              ONE OF THE HOUSES WE HAVE BUILT
+                            </p>
+                            <div class="clear"></div>
+                            <ul
+                              class="list-unstyled tms-caption no-margins color-white opacity-05"
+                              data-animate-in="preset:slideInUpShort;duration:1000ms;delay:600ms;"
+                              data-no-scale
+                            >
+                              <li><strong>Location:</strong> Birmingham</li>
+                              <li>
+                                <strong>Year Completed:</strong> Dec - 2021
+                              </li>
+                              <!--<li><strong>Client:</strong></li>-->
+                            </ul>
+                            <div class="clear"></div>
+                            <a
+                              href="tel:205-400-6074"
+                              class="tms-caption mt-20 button small border-white color-white bkg-hover-theme color-hover-white"
+                              data-animate-in="preset:slideInUpShort;duration:1000ms;delay:800ms;"
+                              data-no-scale
+                            >
+                              FREE ESTIMATE
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <img
+                      data-src="images/7.jpg"
+                      data-retina
+                      src="images/blank.png"
+                      alt=""
+                    />
+                  </li>
+                  <li
+                    class="tms-slide"
+                    data-image
+                    data-as-bkg-image
+                    data-force-fit
+                    data-overlay-bkg-color="#000000"
+                    data-overlay-bkg-opacity="0.3"
+                    data-animation="slideLeftRight"
+                  >
+                    <div class="tms-content">
+                      <div class="tms-content-inner left v-align-middle">
+                        <div class="row">
+                          <div class="column width-5">
+                            <span
+                              class="tms-caption label bkg-theme color-white"
+                              data-animate-in="preset:slideInUpShort;duration:1000ms;"
+                              data-no-scale
+                            >
+                              Featured Project
+                            </span>
+                            <div class="clear"></div>
+                            <h4
+                              class="tms-caption mt-30 color-white"
+                              data-animate-in="preset:slideInUpShort;duration:1000ms;delay:200ms;"
+                              data-no-scale
+                            ></h4>
+                            <div class="clear"></div>
+                            <p
+                              class="tms-caption mb-20 color-white"
+                              data-animate-in="preset:slideInUpShort;duration:1000ms;delay:400ms;"
+                              data-no-scale
+                            >
+                              COMPLETE HOME RESTORATION
+                            </p>
+                            <div class="clear"></div>
+                            <ul
+                              class="list-unstyled tms-caption no-margins color-white opacity-05"
+                              data-animate-in="preset:slideInUpShort;duration:1000ms;delay:600ms;"
+                              data-no-scale
+                            >
+                              <li><strong>Location:</strong> Birmingham</li>
+                              <li>
+                                <strong>Year Completed:</strong> Jan - 2021
+                              </li>
+                              <!--<li><strong>Client:</strong></li>-->
+                            </ul>
+                            <div class="clear"></div>
+                            <a
+                              href="tel:205-400-6074"
+                              class="tms-caption mt-20 button small border-white color-white bkg-hover-theme color-hover-white"
+                              data-animate-in="preset:slideInUpShort;duration:1000ms;delay:800ms;"
+                              data-no-scale
+                            >
+                              FREE ESTIMATE
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <img
+                      data-src="images/8.jpg"
+                      data-retina
+                      src="images/blank.png"
+                      alt=""
+                    />
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <!-- Full Width Slider Section End -->
+
+            <!-- Portfolio Grid -->
+            <div
+              class="section-block grid-container fade-in-progressively"
+              data-layout-mode="masonry"
+              data-grid-ratio="1.5"
+              data-animate-filter-duration="700"
+              data-animate-resize
+              data-animate-resize-duration="0"
+            >
+              <div class="row">
+                <div class="column width-12">
+                  <div class="row grid content-grid-3">
+                    <div class="grid-item grid-sizer">
+                      <div
+                        class="thumbnail img-scale-in"
+                        data-hover-easing="easeInOut"
+                        data-hover-speed="800"
+                        data-hover-bkg-color="#000000"
+                        data-hover-bkg-opacity="0.4"
+                      >
+                        <a
+                          class="overlay-link lightbox-link"
+                          data-toolbar="zoom"
+                          data-group="gallery-1"
+                          data-caption="Single Room Painting"
+                          href="images/1.jpg"
+                        >
+                          <img src="images/1.jpg" alt="" />
+                          <span class="overlay-info">
+                            <span>
+                              <span> + </span>
+                            </span>
+                          </span>
+                        </a>
+                      </div>
+                      <div class="item-description">
+                        <h4 class="project-title">SINGLE ROOM PAINTING</h4>
+                      </div>
+                    </div>
+                    <div class="grid-item">
+                      <div
+                        class="thumbnail img-scale-in"
+                        data-hover-easing="easeInOut"
+                        data-hover-speed="800"
+                        data-hover-bkg-color="#000000"
+                        data-hover-bkg-opacity="0.4"
+                      >
+                        <a
+                          class="overlay-link lightbox-link"
+                          data-toolbar="zoom"
+                          data-group="gallery-1"
+                          data-caption="Exterior Painting"
+                          href="images/2.jpg"
+                        >
+                          <img src="images/2.jpg" alt="" />
+                          <span class="overlay-info">
+                            <span>
+                              <span> + </span>
+                            </span>
+                          </span>
+                        </a>
+                      </div>
+                      <div class="item-description">
+                        <h4 class="project-title">EXTERIOR PAINTING</h4>
+                      </div>
+                    </div>
+                    <div class="grid-item">
+                      <div
+                        class="thumbnail img-scale-in"
+                        data-hover-easing="easeInOut"
+                        data-hover-speed="800"
+                        data-hover-bkg-color="#000000"
+                        data-hover-bkg-opacity="0.4"
+                      >
+                        <a
+                          class="overlay-link lightbox-link"
+                          data-toolbar="zoom"
+                          data-group="gallery-1"
+                          data-caption="Framing"
+                          href="images/3.jpg"
+                        >
+                          <img src="images/3.jpg" alt="" />
+                          <span class="overlay-info">
+                            <span>
+                              <span> + </span>
+                            </span>
+                          </span>
+                        </a>
+                      </div>
+                      <div class="item-description">
+                        <h4 class="project-title">FRAMING</h4>
+                      </div>
+                    </div>
+                    <div class="grid-item">
+                      <div
+                        class="thumbnail img-scale-in"
+                        data-hover-easing="easeInOut"
+                        data-hover-speed="800"
+                        data-hover-bkg-color="#000000"
+                        data-hover-bkg-opacity="0.4"
+                      >
+                        <a
+                          class="overlay-link lightbox-link"
+                          data-toolbar="zoom"
+                          data-group="gallery-1"
+                          data-caption="Porch"
+                          href="images/4.jpg"
+                        >
+                          <img src="images/4.jpg" alt="" />
+                          <span class="overlay-info">
+                            <span>
+                              <span> + </span>
+                            </span>
+                          </span>
+                        </a>
+                      </div>
+                      <div class="item-description">
+                        <h4 class="project-title">
+                          Porch Painting & Restoration
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="grid-item">
+                      <div
+                        class="thumbnail img-scale-in"
+                        data-hover-easing="easeInOut"
+                        data-hover-speed="800"
+                        data-hover-bkg-color="#000000"
+                        data-hover-bkg-opacity="0.4"
+                      >
+                        <a
+                          class="overlay-link lightbox-link"
+                          data-group="gallery-1"
+                          data-caption="Roof"
+                          href="images/5.jpg"
+                        >
+                          <img src="images/5.jpg" alt="" />
+                          <span class="overlay-info">
+                            <span>
+                              <span> + </span>
+                            </span>
+                          </span>
+                        </a>
+                      </div>
+                      <div class="item-description">
+                        <h4 class="project-title">Roof</h4>
+                      </div>
+                    </div>
+                    <div class="grid-item">
+                      <div
+                        class="thumbnail img-scale-in"
+                        data-hover-easing="easeInOut"
+                        data-hover-speed="800"
+                        data-hover-bkg-color="#000000"
+                        data-hover-bkg-opacity="0.4"
+                      >
+                        <a
+                          class="overlay-link lightbox-link"
+                          data-group="gallery-1"
+                          data-caption="Interior Painting"
+                          href="images/6.jpg"
+                        >
+                          <img src="images/6.jpg" alt="" />
+                          <span class="overlay-info">
+                            <span>
+                              <span> + </span>
+                            </span>
+                          </span>
+                        </a>
+                      </div>
+                      <div class="item-description">
+                        <h4 class="project-title">
+                          INTERIOR, BATHROOM PAINTING
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Grid End -->
+          </section>
+          <!-- Work End -->
+
+          <!-- Contact -->
+          <section
+            id="contact"
+            class="section-block hero-5 hero-5-3 clear-height show-media-column-on-mobile bkg-charcoal"
+          >
+            <div class="media-column width-6"></div>
+            <div class="row">
+              <div class="column width-6">
+                <div class="hero-content split-hero-content">
+                  <div class="hero-content-inner left">
+                    <h3 class="mb-30 color-white">Contact</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="column width-5 offset-1">
+                <div class="hero-content split-hero-content">
+                  <div
+                    class="hero-content-inner left horizon"
+                    data-animate-in="preset:slideInLeftShort;duration:1000ms;"
+                    data-threshold="0.5"
+                  >
+                    <p class="lead color-white">
+                      Have a project that requires renovation or redesign? We'll
+                      be happy to take a look at your project. All project
+                      estimates are free.
+                    </p>
+                    <p class="color-white"></p>
+                    <address>
+                      Birmingham<br />
+                      Alabama
+                    </address>
+                    <p>
+                      Tel: + (205) 400-6074<br />
+                      Email:
+                      <a href="mailto:constructionkc8@gmail.com"
+                        >constructionkc8@gmail.com</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Contact End -->
+
+          <!-- Signup Modal -->
+          <div
+            id="signup-lightbox"
+            class="signup-2 signup-2-1 pt-70 pb-50 hide"
+          >
+            <div class="row">
+              <div class="column width-12 center">
+                <h2 class="mb-30 color-white">Join Our Newsletter:</h2>
+                <div class="signup-form-container">
+                  <form
+                    class="signup-form"
+                    action="php/subscribe.php"
+                    method="post"
+                    novalidate
+                  >
+                    <div class="row">
+                      <div class="column width-9">
+                        <div class="field-wrapper">
+                          <input
+                            type="email"
+                            name="email"
+                            class="form-email form-element"
+                            placeholder="Email address*"
+                            tabindex="2"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div class="column width-3 center">
+                        <input
+                          type="submit"
+                          value="Signup"
+                          class="form-submit button bkg-charcoal bkg-hover-theme color-white color-hover-white"
+                        />
+                      </div>
+                    </div>
+                    <input
+                      type="text"
+                      name="honeypot"
+                      class="form-honeypot form-element"
+                    />
+                  </form>
+                  <div class="form-response show color-white"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Signup Modal End -->
         </div>
+        <!-- Content End -->
+
+        <!-- Footer -->
+        <footer class="footer">
+          <div class="footer-top">
+            <div class="row flex">
+              <div class="column width-3">
+                <div class="widget">
+                  <h4 class="widget-title">
+                    KC<span class="weight-light"> CONSTRUCTION</span>
+                  </h4>
+                </div>
+              </div>
+              <div class="column width-3">
+                <div class="widget">
+                  <h4 class="widget-title">SOCIAL MEDIA</h4>
+                  <p>Stay contected, like & follow us</p>
+                  <a href="https://www.facebook.com/kcconstructionandrenovation"
+                    >Facebook</a
+                  >
+                  <br />
+                  <a href="https://www.instagram.com/kcconstructionn/"
+                    >Instagram</a
+                  >
+                </div>
+              </div>
+
+              <div class="column width-3">
+                <div class="widget">
+                  <h4 class="widget-title">Contact Us</h4>
+
+                  <p>
+                    Tel: +(205) 400-6074<br />
+                    Email:
+                    <a href="mailto:constructionkc8@gmail.com"
+                      >constructionkc8@gmail.com</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="row">
+              <div class="column width-12">
+                <p class="copyright">
+                  &copy; <a href="https://www.7seven7.us/">7SEVEN7</a>. All
+                  Rights Reserved.
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- Footer End -->
       </div>
-      <!-- banner ends-->
-    </header>
-
-    <!-- about section starts-->
-    <section id="about" class="section">
-      <div class="title">
-        <h2>about <span>us</span></h2>
-      </div>
-      <div class="about">
-        <div class="about-text">
-          <p>
-            <strong>KC</strong> Construction builds, renovates, expands a variety of structure
-            and building types in many markets and industries. We are a full service construction and property
-            maintenance company located in Birmingham, Alabama. We can
-            handle everything from painting, drywall, general repairs, 
-            complete remodeling to task such as handling punch list, restoration put back and property maintenance. 
-            Call us today to find out more about our services
-            and te areas we serve.
-          </p>
-        </div>
-        <div class="about-img">
-          <img src="images/logo.png" />
-        </div>
-      </div>
-    </section>
-    <!-- about section ends-->
-   
-   
-
-    <!--gallery section starts-->
-
-    <section id="services" class="section">
-       <div class="title">
-        <h2>Our<span> Services</span></h2>
-        <p>We are just one call away!</p>
-      </div>
-
-      <div class="gallery">
-           
-        <div class="box">
-        <div class="pic-place">
-            <img src="images/demolition.jpg" width="150px" height="150px" >
-        </div>
-        <div class="text">
-            <h3>Demolition</h3>
-        </div>
-        </div>
-
-
-        <div class="box">
-        <div class="pic-place">
-            <img src="images/remodeling.jpg"  width="150px" height="150px">
-        </div>
-        <div class="text">
-            <h3>Remodeling</h3>
-        </div>
-        </div>
-
-
-        <div class="box">
-        <div class="pic-place">
-            <img src="images/framing.jpg"  width="150px" height="150px">
-        </div>
-        <div class="text">
-            <h3>Framing</h3>
-        </div>
-        </div>
-
-
-        <div class="box">
-        <div class="pic-place">
-            <img src="images/concrete.jpg"  width="150px" height="150px">
-        </div>
-        <div class="text">
-            <h3>Concrete</h3>
-        </div>
-        </div>
-
-
-        <div class="box">
-        <div class="pic-place">
-            <img src="images/bricks.jpg"  width="150px" height="150px">
-        </div>
-        <div class="text">
-            <h3>Bricks</h3>
-        </div>
-        </div>
-
-
-        <div class="box">
-        <div class="pic-place">
-            <img src="images/cleaning.png"  width="150px" height="150px">
-        </div>
-        <div class="text">
-            <h3>Cleaning</h3>
-        </div>
-        </div>
-        
-        <div class="box">
-        <div class="pic-place">
-            <img src="images/roof.jpg"  width="150px" height="150px">
-        </div>
-        <div class="text">
-            <h3>Roof</h3>
-        </div>
-        </div>
-        
-        <div class="box">
-        <div class="pic-place">
-            <img src="images/doors.jpeg"  width="150px" height="150px">
-        </div>
-        <div class="text">
-            <h3>Doors</h3>
-        </div>
-        </div>
-        
-        <div class="box">
-        <div class="pic-place">
-            <img src="images/siding.jpeg"  width="150px" height="150px">
-        </div>
-        <div class="text">
-            <h3>Siding</h3>
-        </div>
-        </div>
-        
- <div class="box">
-        <div class="pic-place">
-            <img src="images/windows.jpg"  width="150px" height="150px">
-        </div>
-        <div class="text">
-            <h3>Windows</h3>
-        </div>
-        </div>
-        
-         <div class="box">
-        <div class="pic-place">
-            <img src="images/flooring.jpg"  width="150px" height="150px">
-        </div>
-        <div class="text">
-            <h3>Floor</h3>
-        </div>
-        </div>
-        
-         <div class="box">
-        <div class="pic-place">
-            <img src="images/carpet.jpg"  width="150px" height="150px">
-        </div>
-        <div class="text">
-            <h3>Carpet</h3>
-        </div>
-        </div>
-        
-         <div class="box">
-        <div class="pic-place">
-            <img src="images/granity.jpg"  width="150px" height="150px">
-        </div>
-        <div class="text">
-            <h3>Granite</h3>
-        </div>
-        </div>
-        
-        
-         <div class="box">
-        <div class="pic-place">
-            <img src="images/cabinet.jpg"  width="150px" height="150px">
-        </div>
-        <div class="text">
-            <h3>Cabinet</h3>
-        </div>
-        </div>
-        
-         <div class="box">
-        <div class="pic-place">
-            <img src="images/cedar.jpg"  width="150px" height="150px">
-        </div>
-        <div class="text">
-            <h3>Cedar</h3>
-        </div>
-        </div>
-        
-         <div class="box">
-        <div class="pic-place">
-            <img src="images/drywall.jpg"  width="150px" height="150px">
-        </div>
-        <div class="text">
-            <h3>Drywall</h3>
-        </div>
-        </div>
-        
-         <div class="box">
-        <div class="pic-place">
-            <img src="images/sheetrock.jpg"  width="150px" height="150px">
-        </div>
-        <div class="text">
-            <h3>Sheetrock</h3>
-        </div>
-        </div>
-        
-        
-
     </div>
 
-    </section>
- <!--gallery section ends-->
- <div class="fb-ig-container">
-    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fkcconstructionandrenovation%2Fposts%2F122524167122744&show_text=true&width=500" 
-            width="500" height="498" style="border:none;overflow:hidden" 
-            scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-    
-    </div>
- <!--contact section starts-->
-
- <section id="contact" class="section">
-  <div class="title">
-    <h2>Contact <span>us</span></h2>
-  </div>
-  <div class="contact">
-    <div class="contact-info">
-       
-    
-      <h3>CALL OR TEXT</h3>
-      
-      <p><a href="tel:(205) 400-6074">(205) 400-6074</a></p>
-      
-      <p><a href="mailto:constructionkc8@gmail.com">constructionkc8@gmail.com</a></p>
-  </div>
- 
-   <div class="social-links">
-   <div class="link-cont">
-  <a href="https://https://www.facebook.com/kcconstructionandrenovation" target="_blank"><i class="fab fa-facebook-f"></i></a>
-  
-
-  <a href="tel:205-400-6079"><i class="fas fa-phone"></i></a>
-</div>
-  </div>
-  </div>
-</section>
- <!--contact section ends--> 
-    
-   
- <!-- footer -->
- <footer>
-  <p>
-    copyright &copy; 
-    <span id="date"></span>. all rights reserved. Designed by: <a href="https://www.7seven7.us/">7seven7</a>
-  </p>
-</footer>
-<a class="scroll-link top-link" href="#hero">
-  <i class="fas fa-arrow-up"></i>
-</a>
-
-<!--footer ends-->
-    <!-- Messenger Chat Plugin Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Chat Plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "108560955185732");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v14.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
-<!-- javascript -->
-    <script src="app.js"></script>
+    <!-- Js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?v=3"></script>
+    <script src="js/timber.master.min.js"></script>
   </body>
 </html>
